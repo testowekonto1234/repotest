@@ -61,7 +61,7 @@ public class HomePageController {
         roleSet.add(role);
         user.setRoles(roleSet);
         userRepository.save(user);
-        System.out.println("sdfsdfsdfsdfsdfsdfsdffghfgfghghghghghhhgh");
+        System.out.println("sdfsdfsdfsdfsdfsdfsdffghfgfghghghghghhhghrtttttttttttt");
         model.addAttribute("username", user.getEmail());
         model.addAttribute("password", user.getPassword());
         model.addAttribute("name", user.getName());
